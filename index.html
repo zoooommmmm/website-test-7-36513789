@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhars - AI Engineer & SEO Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Dhars - AI Engineer and SEO Specialist Portfolio">
+</head>
+<body class="light-mode">
+    <div id="loading-screen">
+        <div class="logo">DHARS</div>
+        <div class="progress-bar"><div class="progress"></div></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">DHARS</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <h1 class="typing-text">Hi, I'm Dhars</h1>
+        <p class="fade-in">AI Engineer & SEO Specialist</p>
+        <a href="#contact" class="cta-button">Get in touch</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a specialized AI Engineer and SEO expert with a passion for creating intelligent solutions that drive business growth. With years of experience in both fields, I help companies leverage artificial intelligence while ensuring their digital presence is optimized for success.</p>
+                <div class="skills">
+                    <span class="skill-badge">Machine Learning</span>
+                    <span class="skill-badge">Natural Language Processing</span>
+                    <span class="skill-badge">SEO Strategy</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">TensorFlow</span>
+                    <span class="skill-badge">Technical SEO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image" style="background-color: #419D78;"></div>
+                <h3>AI Content Optimizer</h3>
+                <p>An AI-powered tool that analyzes and optimizes content for better search engine rankings.</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>NLP</span>
+                    <span>SEO</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #E0A458;"></div>
+                <h3>SEO Analytics Dashboard</h3>
+                <p>Real-time SEO performance tracking and analytics platform with AI-driven insights.</p>
+                <div class="project-tags">
+                    <span>Analytics</span>
+                    <span>Machine Learning</span>
+                    <span>Dashboard</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #2D3047;"></div>
+                <h3>Semantic Search Engine</h3>
+                <p>Custom search engine utilizing advanced NLP for improved result accuracy.</p>
+                <div class="project-tags">
+                    <span>Search</span>
+                    <span>AI</span>
+                    <span>Backend</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <textarea id="message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
